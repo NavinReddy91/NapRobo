@@ -1,0 +1,549 @@
+{
+  "patterns": [
+    {
+      "state": [
+        0.5555555820465088,
+        0.7777777910232544,
+        0.0,
+        0.10000000149011612,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.1111111119389534,
+        0.0,
+        0.949999988079071,
+        0.11999999731779099
+      ],
+      "action": 1,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:51.121368"
+    },
+    {
+      "state": [
+        0.6666666865348816,
+        0.6666666865348816,
+        0.20000000298023224,
+        0.0,
+        0.30000001192092896,
+        0.6000000238418579,
+        0.0,
+        0.1111111119389534,
+        0.800000011920929,
+        0.14000000059604645
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:51.791004"
+    },
+    {
+      "state": [
+        0.6666666865348816,
+        0.7777777910232544,
+        0.699999988079071,
+        0.30000001192092896,
+        0.20000000298023224,
+        0.6000000238418579,
+        0.0,
+        0.1111111119389534,
+        0.9399999976158142,
+        0.36666667461395264
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:52.097885"
+    },
+    {
+      "state": [
+        0.8888888955116272,
+        0.5555555820465088,
+        0.5,
+        0.10000000149011612,
+        0.20000000298023224,
+        0.4000000059604645,
+        0.0,
+        0.1111111119389534,
+        0.8500000238418579,
+        0.18000000715255737
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:52.881011"
+    },
+    {
+      "state": [
+        0.8888888955116272,
+        0.5555555820465088,
+        0.5,
+        0.10000000149011612,
+        0.4000000059604645,
+        0.0,
+        0.0,
+        0.1111111119389534,
+        0.800000011920929,
+        0.2800000011920929
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:53.198956"
+    },
+    {
+      "state": [
+        0.6666666865348816,
+        0.7777777910232544,
+        0.6000000238418579,
+        0.30000001192092896,
+        0.20000000298023224,
+        0.4000000059604645,
+        0.1111111119389534,
+        0.0,
+        0.8899999856948853,
+        0.6399999856948853
+      ],
+      "action": 1,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:53.245068"
+    },
+    {
+      "state": [
+        0.7777777910232544,
+        0.6666666865348816,
+        0.6000000238418579,
+        0.20000000298023224,
+        0.20000000298023224,
+        0.10000000149011612,
+        0.0,
+        0.1111111119389534,
+        0.8399999737739563,
+        0.6733333468437195
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:53.888801"
+    },
+    {
+      "state": [
+        0.8888888955116272,
+        0.6666666865348816,
+        0.0,
+        0.10000000149011612,
+        0.30000001192092896,
+        0.4000000059604645,
+        -0.1111111119389534,
+        0.0,
+        0.8600000143051147,
+        0.1733333319425583
+      ],
+      "action": 3,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:48:55.325218"
+    },
+    {
+      "state": [
+        0.8571428656578064,
+        1.0,
+        0.5,
+        0.125,
+        0.0,
+        0.125,
+        0.0,
+        -0.1428571492433548,
+        0.84375,
+        0.5666666626930237
+      ],
+      "action": 0,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:53.772453"
+    },
+    {
+      "state": [
+        0.8571428656578064,
+        0.5714285969734192,
+        0.5,
+        0.0,
+        0.125,
+        0.5,
+        0.0,
+        0.1428571492433548,
+        0.984375,
+        0.5933333039283752
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:53.953102"
+    },
+    {
+      "state": [
+        0.7142857313156128,
+        0.5714285969734192,
+        0.5,
+        0.0,
+        0.375,
+        0.0,
+        0.0,
+        0.1428571492433548,
+        0.96875,
+        0.273333340883255
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:54.036441"
+    },
+    {
+      "state": [
+        0.5714285969734192,
+        0.8571428656578064,
+        0.125,
+        0.375,
+        0.125,
+        0.375,
+        0.1428571492433548,
+        0.0,
+        1.0,
+        0.4333333373069763
+      ],
+      "action": 1,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:54.227298"
+    },
+    {
+      "state": [
+        1.0,
+        0.5714285969734192,
+        0.5,
+        0.0,
+        0.375,
+        0.375,
+        0.0,
+        0.1428571492433548,
+        1.0,
+        0.2666666805744171
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:55.511515"
+    },
+    {
+      "state": [
+        0.5714285969734192,
+        0.8571428656578064,
+        0.375,
+        0.125,
+        0.125,
+        0.125,
+        0.1428571492433548,
+        0.0,
+        0.828125,
+        0.800000011920929
+      ],
+      "action": 1,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:57.357281"
+    },
+    {
+      "state": [
+        0.8571428656578064,
+        0.7142857313156128,
+        0.5,
+        0.125,
+        0.25,
+        0.25,
+        0.1428571492433548,
+        0.0,
+        1.0,
+        0.013333333656191826
+      ],
+      "action": 1,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:57.599550"
+    },
+    {
+      "state": [
+        0.5714285969734192,
+        0.8571428656578064,
+        0.375,
+        0.125,
+        0.0,
+        0.5,
+        0.1428571492433548,
+        0.0,
+        0.921875,
+        0.8199999928474426
+      ],
+      "action": 1,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:50:59.824669"
+    },
+    {
+      "state": [
+        0.8571428656578064,
+        0.7142857313156128,
+        0.625,
+        0.125,
+        0.25,
+        0.125,
+        0.0,
+        0.1428571492433548,
+        0.984375,
+        0.3799999952316284
+      ],
+      "action": 2,
+      "reward": 50.0,
+      "success": true,
+      "timestamp": "2026-10-16T08:51:03.437883"
+    }
+  ],
+  "strategies": [
+    {
+      "name": "Goal Seeking",
+      "description": "Move towards goal using direction vector",
+      "effectiveness": 0.8,
+      "context": {
+        "situation": "goal_visible"
+      },
+      "timestamp": "2026-10-16T08:48:49.563110"
+    },
+    {
+      "name": "Obstacle Avoidance",
+      "description": "Use proximity sensors to avoid walls",
+      "effectiveness": 0.9,
+      "context": {
+        "situation": "obstacle_near"
+      },
+      "timestamp": "2026-10-16T08:48:49.563282"
+    },
+    {
+      "name": "Success_Ep15",
+      "description": "Reached goal in 133 steps with reward -165.5",
+      "effectiveness": -3.31,
+      "context": {
+        "steps": 133,
+        "reward": -165.5
+      },
+      "timestamp": "2026-10-16T08:48:51.123580"
+    },
+    {
+      "name": "Success_Ep21",
+      "description": "Reached goal in 130 steps with reward -132.5",
+      "effectiveness": -2.65,
+      "context": {
+        "steps": 130,
+        "reward": -132.5
+      },
+      "timestamp": "2026-10-16T08:48:51.791535"
+    },
+    {
+      "name": "Success_Ep24",
+      "description": "Reached goal in 96 steps with reward -57.0",
+      "effectiveness": -1.14,
+      "context": {
+        "steps": 96,
+        "reward": -57.0
+      },
+      "timestamp": "2026-10-16T08:48:52.098434"
+    },
+    {
+      "name": "Success_Ep31",
+      "description": "Reached goal in 124 steps with reward -150.0",
+      "effectiveness": -3.0,
+      "context": {
+        "steps": 124,
+        "reward": -150.0
+      },
+      "timestamp": "2026-10-16T08:48:52.881607"
+    },
+    {
+      "name": "Success_Ep34",
+      "description": "Reached goal in 109 steps with reward -108.0",
+      "effectiveness": -2.16,
+      "context": {
+        "steps": 109,
+        "reward": -108.0
+      },
+      "timestamp": "2026-10-16T08:48:53.200953"
+    },
+    {
+      "name": "Success_Ep35",
+      "description": "Reached goal in 55 steps with reward -8.5",
+      "effectiveness": -0.17,
+      "context": {
+        "steps": 55,
+        "reward": -8.5
+      },
+      "timestamp": "2026-10-16T08:48:53.247055"
+    },
+    {
+      "name": "Success_Ep41",
+      "description": "Reached goal in 50 steps with reward -24.5",
+      "effectiveness": -0.49,
+      "context": {
+        "steps": 50,
+        "reward": -24.5
+      },
+      "timestamp": "2026-10-16T08:48:53.889978"
+    },
+    {
+      "name": "Success_Ep53",
+      "description": "Reached goal in 125 steps with reward -154.5",
+      "effectiveness": -3.09,
+      "context": {
+        "steps": 125,
+        "reward": -154.5
+      },
+      "timestamp": "2026-10-16T08:48:55.327501"
+    },
+    {
+      "name": "Goal Seeking",
+      "description": "Move towards goal using direction vector",
+      "effectiveness": 0.8,
+      "context": {
+        "situation": "goal_visible"
+      },
+      "timestamp": "2026-10-16T08:50:53.527218"
+    },
+    {
+      "name": "Obstacle Avoidance",
+      "description": "Use proximity sensors to avoid walls",
+      "effectiveness": 0.9,
+      "context": {
+        "situation": "obstacle_near"
+      },
+      "timestamp": "2026-10-16T08:50:53.527842"
+    },
+    {
+      "name": "Success_Ep3",
+      "description": "Reached goal in 66 steps with reward -107.0",
+      "effectiveness": -2.14,
+      "context": {
+        "steps": 66,
+        "reward": -107.0
+      },
+      "timestamp": "2026-10-16T08:50:53.773206"
+    },
+    {
+      "name": "Success_Ep5",
+      "description": "Reached goal in 62 steps with reward -21.0",
+      "effectiveness": -0.42,
+      "context": {
+        "steps": 62,
+        "reward": -21.0
+      },
+      "timestamp": "2026-10-16T08:50:53.953892"
+    },
+    {
+      "name": "Success_Ep6",
+      "description": "Reached goal in 110 steps with reward -132.0",
+      "effectiveness": -2.64,
+      "context": {
+        "steps": 110,
+        "reward": -132.0
+      },
+      "timestamp": "2026-10-16T08:50:54.037248"
+    },
+    {
+      "name": "Success_Ep8",
+      "description": "Reached goal in 86 steps with reward -125.5",
+      "effectiveness": -2.51,
+      "context": {
+        "steps": 86,
+        "reward": -125.5
+      },
+      "timestamp": "2026-10-16T08:50:54.228164"
+    },
+    {
+      "name": "Success_Ep19",
+      "description": "Reached goal in 111 steps with reward -199.5",
+      "effectiveness": -3.99,
+      "context": {
+        "steps": 111,
+        "reward": -199.5
+      },
+      "timestamp": "2026-10-16T08:50:55.513853"
+    },
+    {
+      "name": "Success_Ep35",
+      "description": "Reached goal in 31 steps with reward -6.0",
+      "effectiveness": -0.12,
+      "context": {
+        "steps": 31,
+        "reward": -6.0
+      },
+      "timestamp": "2026-10-16T08:50:57.359955"
+    },
+    {
+      "name": "Success_Ep37",
+      "description": "Reached goal in 149 steps with reward -242.5",
+      "effectiveness": -4.85,
+      "context": {
+        "steps": 149,
+        "reward": -242.5
+      },
+      "timestamp": "2026-10-16T08:50:57.601996"
+    },
+    {
+      "name": "Success_Ep56",
+      "description": "Reached goal in 28 steps with reward 32.0",
+      "effectiveness": 0.64,
+      "context": {
+        "steps": 28,
+        "reward": 32.0
+      },
+      "timestamp": "2026-10-16T08:50:59.825714"
+    },
+    {
+      "name": "Success_Ep87",
+      "description": "Reached goal in 94 steps with reward -96.0",
+      "effectiveness": -1.92,
+      "context": {
+        "steps": 94,
+        "reward": -96.0
+      },
+      "timestamp": "2026-10-16T08:51:03.438949"
+    },
+    {
+      "name": "Goal Seeking",
+      "description": "Move towards goal using direction vector",
+      "effectiveness": 0.8,
+      "context": {
+        "situation": "goal_visible"
+      },
+      "timestamp": "2026-10-16T08:52:13.441720"
+    },
+    {
+      "name": "Obstacle Avoidance",
+      "description": "Use proximity sensors to avoid walls",
+      "effectiveness": 0.9,
+      "context": {
+        "situation": "obstacle_near"
+      },
+      "timestamp": "2026-10-16T08:52:13.442696"
+    }
+  ],
+  "environmental": {},
+  "heuristics": {
+    "Exploration Bonus": {
+      "rule": "Prefer unexplored areas when stuck",
+      "confidence": 0.7,
+      "timestamp": "2026-10-16T08:52:13.443607"
+    }
+  },
+  "metadata": {
+    "created": "2026-10-16T08:48:49.562377",
+    "last_updated": "2026-10-16T08:52:13.443614",
+    "total_entries": 40
+  }
+}

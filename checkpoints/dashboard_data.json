@@ -1,0 +1,4088 @@
+{
+  "training_log": [
+    {
+      "episode": 1,
+      "reward": -429.0,
+      "steps": 200,
+      "epsilon": 0.998,
+      "event": "timeout",
+      "memory_size": 200
+    },
+    {
+      "episode": 2,
+      "reward": -558.5,
+      "steps": 200,
+      "epsilon": 0.996,
+      "event": "timeout",
+      "memory_size": 400
+    },
+    {
+      "episode": 3,
+      "reward": -397.5,
+      "steps": 200,
+      "epsilon": 0.994,
+      "event": "timeout",
+      "memory_size": 600
+    },
+    {
+      "episode": 4,
+      "reward": -302.5,
+      "steps": 200,
+      "epsilon": 0.992,
+      "event": "timeout",
+      "memory_size": 800
+    },
+    {
+      "episode": 5,
+      "reward": -370.0,
+      "steps": 200,
+      "epsilon": 0.99,
+      "event": "timeout",
+      "memory_size": 1000
+    },
+    {
+      "episode": 6,
+      "reward": -346.0,
+      "steps": 200,
+      "epsilon": 0.9881,
+      "event": "timeout",
+      "memory_size": 1200
+    },
+    {
+      "episode": 7,
+      "reward": -430.5,
+      "steps": 200,
+      "epsilon": 0.9861,
+      "event": "timeout",
+      "memory_size": 1400
+    },
+    {
+      "episode": 8,
+      "reward": -452.5,
+      "steps": 200,
+      "epsilon": 0.9841,
+      "event": "timeout",
+      "memory_size": 1600
+    },
+    {
+      "episode": 9,
+      "reward": -475.0,
+      "steps": 200,
+      "epsilon": 0.9821,
+      "event": "timeout",
+      "memory_size": 1800
+    },
+    {
+      "episode": 10,
+      "reward": -323.0,
+      "steps": 200,
+      "epsilon": 0.9802,
+      "event": "timeout",
+      "memory_size": 2000
+    },
+    {
+      "episode": 11,
+      "reward": -303.0,
+      "steps": 200,
+      "epsilon": 0.9782,
+      "event": "timeout",
+      "memory_size": 2200
+    },
+    {
+      "episode": 12,
+      "reward": -133.0,
+      "steps": 92,
+      "epsilon": 0.9763,
+      "event": "goal",
+      "memory_size": 2292
+    },
+    {
+      "episode": 13,
+      "reward": -316.0,
+      "steps": 174,
+      "epsilon": 0.9743,
+      "event": "goal",
+      "memory_size": 2466
+    },
+    {
+      "episode": 14,
+      "reward": -422.5,
+      "steps": 200,
+      "epsilon": 0.9724,
+      "event": "timeout",
+      "memory_size": 2666
+    },
+    {
+      "episode": 15,
+      "reward": -398.0,
+      "steps": 200,
+      "epsilon": 0.9704,
+      "event": "timeout",
+      "memory_size": 2866
+    },
+    {
+      "episode": 16,
+      "reward": -399.0,
+      "steps": 200,
+      "epsilon": 0.9685,
+      "event": "timeout",
+      "memory_size": 3066
+    },
+    {
+      "episode": 17,
+      "reward": -403.5,
+      "steps": 200,
+      "epsilon": 0.9665,
+      "event": "timeout",
+      "memory_size": 3266
+    },
+    {
+      "episode": 18,
+      "reward": -250.0,
+      "steps": 200,
+      "epsilon": 0.9646,
+      "event": "timeout",
+      "memory_size": 3466
+    },
+    {
+      "episode": 19,
+      "reward": -70.5,
+      "steps": 125,
+      "epsilon": 0.9627,
+      "event": "goal",
+      "memory_size": 3591
+    },
+    {
+      "episode": 20,
+      "reward": -478.0,
+      "steps": 200,
+      "epsilon": 0.9608,
+      "event": "timeout",
+      "memory_size": 3791
+    },
+    {
+      "episode": 21,
+      "reward": -382.0,
+      "steps": 200,
+      "epsilon": 0.9588,
+      "event": "timeout",
+      "memory_size": 3991
+    },
+    {
+      "episode": 22,
+      "reward": -475.5,
+      "steps": 200,
+      "epsilon": 0.9569,
+      "event": "timeout",
+      "memory_size": 4191
+    },
+    {
+      "episode": 23,
+      "reward": -412.0,
+      "steps": 200,
+      "epsilon": 0.955,
+      "event": "timeout",
+      "memory_size": 4391
+    },
+    {
+      "episode": 24,
+      "reward": -275.5,
+      "steps": 200,
+      "epsilon": 0.9531,
+      "event": "timeout",
+      "memory_size": 4591
+    },
+    {
+      "episode": 25,
+      "reward": -398.5,
+      "steps": 200,
+      "epsilon": 0.9512,
+      "event": "timeout",
+      "memory_size": 4791
+    },
+    {
+      "episode": 26,
+      "reward": -423.0,
+      "steps": 200,
+      "epsilon": 0.9493,
+      "event": "timeout",
+      "memory_size": 4991
+    },
+    {
+      "episode": 27,
+      "reward": -304.0,
+      "steps": 177,
+      "epsilon": 0.9474,
+      "event": "goal",
+      "memory_size": 5168
+    },
+    {
+      "episode": 28,
+      "reward": -392.0,
+      "steps": 200,
+      "epsilon": 0.9455,
+      "event": "timeout",
+      "memory_size": 5368
+    },
+    {
+      "episode": 29,
+      "reward": -266.5,
+      "steps": 200,
+      "epsilon": 0.9436,
+      "event": "timeout",
+      "memory_size": 5568
+    },
+    {
+      "episode": 30,
+      "reward": -393.5,
+      "steps": 200,
+      "epsilon": 0.9417,
+      "event": "timeout",
+      "memory_size": 5768
+    },
+    {
+      "episode": 31,
+      "reward": -364.5,
+      "steps": 200,
+      "epsilon": 0.9398,
+      "event": "timeout",
+      "memory_size": 5968
+    },
+    {
+      "episode": 32,
+      "reward": -423.5,
+      "steps": 200,
+      "epsilon": 0.9379,
+      "event": "timeout",
+      "memory_size": 6168
+    },
+    {
+      "episode": 33,
+      "reward": -325.0,
+      "steps": 200,
+      "epsilon": 0.9361,
+      "event": "timeout",
+      "memory_size": 6368
+    },
+    {
+      "episode": 34,
+      "reward": -414.0,
+      "steps": 200,
+      "epsilon": 0.9342,
+      "event": "timeout",
+      "memory_size": 6568
+    },
+    {
+      "episode": 35,
+      "reward": -296.5,
+      "steps": 200,
+      "epsilon": 0.9323,
+      "event": "timeout",
+      "memory_size": 6768
+    },
+    {
+      "episode": 36,
+      "reward": -824.5,
+      "steps": 200,
+      "epsilon": 0.9305,
+      "event": "timeout",
+      "memory_size": 6968
+    },
+    {
+      "episode": 37,
+      "reward": -391.0,
+      "steps": 200,
+      "epsilon": 0.9286,
+      "event": "timeout",
+      "memory_size": 7168
+    },
+    {
+      "episode": 38,
+      "reward": -482.5,
+      "steps": 200,
+      "epsilon": 0.9267,
+      "event": "timeout",
+      "memory_size": 7368
+    },
+    {
+      "episode": 39,
+      "reward": -481.0,
+      "steps": 200,
+      "epsilon": 0.9249,
+      "event": "timeout",
+      "memory_size": 7568
+    },
+    {
+      "episode": 40,
+      "reward": -464.5,
+      "steps": 200,
+      "epsilon": 0.923,
+      "event": "timeout",
+      "memory_size": 7768
+    },
+    {
+      "episode": 41,
+      "reward": -313.5,
+      "steps": 200,
+      "epsilon": 0.9212,
+      "event": "timeout",
+      "memory_size": 7968
+    },
+    {
+      "episode": 42,
+      "reward": -412.0,
+      "steps": 200,
+      "epsilon": 0.9194,
+      "event": "timeout",
+      "memory_size": 8168
+    },
+    {
+      "episode": 43,
+      "reward": -86.5,
+      "steps": 74,
+      "epsilon": 0.9175,
+      "event": "goal",
+      "memory_size": 8242
+    },
+    {
+      "episode": 44,
+      "reward": -262.0,
+      "steps": 200,
+      "epsilon": 0.9157,
+      "event": "timeout",
+      "memory_size": 8442
+    },
+    {
+      "episode": 45,
+      "reward": -348.5,
+      "steps": 200,
+      "epsilon": 0.9138,
+      "event": "timeout",
+      "memory_size": 8642
+    },
+    {
+      "episode": 46,
+      "reward": -322.5,
+      "steps": 200,
+      "epsilon": 0.912,
+      "event": "timeout",
+      "memory_size": 8842
+    },
+    {
+      "episode": 47,
+      "reward": -494.5,
+      "steps": 200,
+      "epsilon": 0.9102,
+      "event": "timeout",
+      "memory_size": 9042
+    },
+    {
+      "episode": 48,
+      "reward": -221.5,
+      "steps": 200,
+      "epsilon": 0.9084,
+      "event": "timeout",
+      "memory_size": 9242
+    },
+    {
+      "episode": 49,
+      "reward": -70.5,
+      "steps": 71,
+      "epsilon": 0.9066,
+      "event": "goal",
+      "memory_size": 9313
+    },
+    {
+      "episode": 50,
+      "reward": -231.0,
+      "steps": 172,
+      "epsilon": 0.9047,
+      "event": "goal",
+      "memory_size": 9485
+    },
+    {
+      "episode": 51,
+      "reward": -550.0,
+      "steps": 200,
+      "epsilon": 0.9029,
+      "event": "timeout",
+      "memory_size": 9685
+    },
+    {
+      "episode": 52,
+      "reward": -325.5,
+      "steps": 200,
+      "epsilon": 0.9011,
+      "event": "timeout",
+      "memory_size": 9885
+    },
+    {
+      "episode": 53,
+      "reward": -303.0,
+      "steps": 200,
+      "epsilon": 0.8993,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 54,
+      "reward": -352.0,
+      "steps": 200,
+      "epsilon": 0.8975,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 55,
+      "reward": -473.5,
+      "steps": 200,
+      "epsilon": 0.8957,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 56,
+      "reward": -140.5,
+      "steps": 92,
+      "epsilon": 0.8939,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 57,
+      "reward": -316.5,
+      "steps": 200,
+      "epsilon": 0.8922,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 58,
+      "reward": -405.5,
+      "steps": 200,
+      "epsilon": 0.8904,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 59,
+      "reward": -216.5,
+      "steps": 146,
+      "epsilon": 0.8886,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 60,
+      "reward": -346.0,
+      "steps": 200,
+      "epsilon": 0.8868,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 61,
+      "reward": -374.5,
+      "steps": 200,
+      "epsilon": 0.885,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 62,
+      "reward": -132.5,
+      "steps": 103,
+      "epsilon": 0.8833,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 63,
+      "reward": -242.0,
+      "steps": 168,
+      "epsilon": 0.8815,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 64,
+      "reward": -340.0,
+      "steps": 200,
+      "epsilon": 0.8797,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 65,
+      "reward": -374.5,
+      "steps": 200,
+      "epsilon": 0.878,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 66,
+      "reward": -349.5,
+      "steps": 200,
+      "epsilon": 0.8762,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 67,
+      "reward": -388.5,
+      "steps": 200,
+      "epsilon": 0.8745,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 68,
+      "reward": -461.5,
+      "steps": 200,
+      "epsilon": 0.8727,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 69,
+      "reward": -372.5,
+      "steps": 200,
+      "epsilon": 0.871,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 70,
+      "reward": -574.0,
+      "steps": 200,
+      "epsilon": 0.8692,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 71,
+      "reward": -316.0,
+      "steps": 200,
+      "epsilon": 0.8675,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 72,
+      "reward": -443.0,
+      "steps": 200,
+      "epsilon": 0.8658,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 73,
+      "reward": -213.5,
+      "steps": 168,
+      "epsilon": 0.864,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 74,
+      "reward": -491.0,
+      "steps": 200,
+      "epsilon": 0.8623,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 75,
+      "reward": -224.0,
+      "steps": 130,
+      "epsilon": 0.8606,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 76,
+      "reward": -534.0,
+      "steps": 200,
+      "epsilon": 0.8589,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 77,
+      "reward": -529.5,
+      "steps": 200,
+      "epsilon": 0.8571,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 78,
+      "reward": -622.0,
+      "steps": 200,
+      "epsilon": 0.8554,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 79,
+      "reward": -504.5,
+      "steps": 200,
+      "epsilon": 0.8537,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 80,
+      "reward": -469.0,
+      "steps": 200,
+      "epsilon": 0.852,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 81,
+      "reward": -456.0,
+      "steps": 200,
+      "epsilon": 0.8503,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 82,
+      "reward": -543.5,
+      "steps": 200,
+      "epsilon": 0.8486,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 83,
+      "reward": -527.5,
+      "steps": 200,
+      "epsilon": 0.8469,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 84,
+      "reward": -349.5,
+      "steps": 200,
+      "epsilon": 0.8452,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 85,
+      "reward": -393.0,
+      "steps": 200,
+      "epsilon": 0.8435,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 86,
+      "reward": -343.0,
+      "steps": 200,
+      "epsilon": 0.8418,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 87,
+      "reward": -434.0,
+      "steps": 200,
+      "epsilon": 0.8402,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 88,
+      "reward": -45.0,
+      "steps": 60,
+      "epsilon": 0.8385,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 89,
+      "reward": -564.5,
+      "steps": 200,
+      "epsilon": 0.8368,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 90,
+      "reward": -500.5,
+      "steps": 200,
+      "epsilon": 0.8351,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 91,
+      "reward": -590.0,
+      "steps": 200,
+      "epsilon": 0.8334,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 92,
+      "reward": -472.0,
+      "steps": 200,
+      "epsilon": 0.8318,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 93,
+      "reward": -513.0,
+      "steps": 200,
+      "epsilon": 0.8301,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 94,
+      "reward": -513.0,
+      "steps": 200,
+      "epsilon": 0.8285,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 95,
+      "reward": -427.0,
+      "steps": 178,
+      "epsilon": 0.8268,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 96,
+      "reward": -480.0,
+      "steps": 200,
+      "epsilon": 0.8251,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 97,
+      "reward": -523.0,
+      "steps": 200,
+      "epsilon": 0.8235,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 98,
+      "reward": -362.0,
+      "steps": 200,
+      "epsilon": 0.8219,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 99,
+      "reward": -634.5,
+      "steps": 200,
+      "epsilon": 0.8202,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 100,
+      "reward": -576.0,
+      "steps": 200,
+      "epsilon": 0.8186,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 101,
+      "reward": -468.5,
+      "steps": 200,
+      "epsilon": 0.8169,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 102,
+      "reward": -411.0,
+      "steps": 200,
+      "epsilon": 0.8153,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 103,
+      "reward": -433.5,
+      "steps": 200,
+      "epsilon": 0.8137,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 104,
+      "reward": -379.0,
+      "steps": 200,
+      "epsilon": 0.812,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 105,
+      "reward": -666.0,
+      "steps": 200,
+      "epsilon": 0.8104,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 106,
+      "reward": -577.5,
+      "steps": 200,
+      "epsilon": 0.8088,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 107,
+      "reward": -581.0,
+      "steps": 200,
+      "epsilon": 0.8072,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 108,
+      "reward": -532.0,
+      "steps": 200,
+      "epsilon": 0.8056,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 109,
+      "reward": -320.5,
+      "steps": 200,
+      "epsilon": 0.8039,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 110,
+      "reward": -660.5,
+      "steps": 200,
+      "epsilon": 0.8023,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 111,
+      "reward": -624.5,
+      "steps": 200,
+      "epsilon": 0.8007,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 112,
+      "reward": -473.5,
+      "steps": 200,
+      "epsilon": 0.7991,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 113,
+      "reward": -344.5,
+      "steps": 200,
+      "epsilon": 0.7975,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 114,
+      "reward": -455.5,
+      "steps": 200,
+      "epsilon": 0.7959,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 115,
+      "reward": -524.0,
+      "steps": 200,
+      "epsilon": 0.7944,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 116,
+      "reward": -383.5,
+      "steps": 200,
+      "epsilon": 0.7928,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 117,
+      "reward": -478.0,
+      "steps": 200,
+      "epsilon": 0.7912,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 118,
+      "reward": -365.5,
+      "steps": 200,
+      "epsilon": 0.7896,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 119,
+      "reward": -766.0,
+      "steps": 200,
+      "epsilon": 0.788,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 120,
+      "reward": -829.0,
+      "steps": 200,
+      "epsilon": 0.7864,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 121,
+      "reward": -443.5,
+      "steps": 200,
+      "epsilon": 0.7849,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 122,
+      "reward": -487.5,
+      "steps": 200,
+      "epsilon": 0.7833,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 123,
+      "reward": -489.0,
+      "steps": 200,
+      "epsilon": 0.7817,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 124,
+      "reward": -334.0,
+      "steps": 200,
+      "epsilon": 0.7802,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 125,
+      "reward": -357.0,
+      "steps": 200,
+      "epsilon": 0.7786,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 126,
+      "reward": -518.0,
+      "steps": 200,
+      "epsilon": 0.777,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 127,
+      "reward": -352.0,
+      "steps": 200,
+      "epsilon": 0.7755,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 128,
+      "reward": -526.5,
+      "steps": 200,
+      "epsilon": 0.7739,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 129,
+      "reward": -735.0,
+      "steps": 200,
+      "epsilon": 0.7724,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 130,
+      "reward": -392.5,
+      "steps": 200,
+      "epsilon": 0.7709,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 131,
+      "reward": -376.0,
+      "steps": 200,
+      "epsilon": 0.7693,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 132,
+      "reward": -469.5,
+      "steps": 200,
+      "epsilon": 0.7678,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 133,
+      "reward": -573.0,
+      "steps": 200,
+      "epsilon": 0.7662,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 134,
+      "reward": -532.0,
+      "steps": 200,
+      "epsilon": 0.7647,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 135,
+      "reward": -450.0,
+      "steps": 200,
+      "epsilon": 0.7632,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 136,
+      "reward": -528.5,
+      "steps": 200,
+      "epsilon": 0.7616,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 137,
+      "reward": -170.0,
+      "steps": 105,
+      "epsilon": 0.7601,
+      "event": "goal",
+      "memory_size": 10000
+    },
+    {
+      "episode": 138,
+      "reward": -649.0,
+      "steps": 200,
+      "epsilon": 0.7586,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 139,
+      "reward": -581.5,
+      "steps": 200,
+      "epsilon": 0.7571,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 140,
+      "reward": -585.0,
+      "steps": 200,
+      "epsilon": 0.7556,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 141,
+      "reward": -797.5,
+      "steps": 200,
+      "epsilon": 0.7541,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 142,
+      "reward": -437.5,
+      "steps": 200,
+      "epsilon": 0.7526,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 143,
+      "reward": -388.0,
+      "steps": 200,
+      "epsilon": 0.751,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 144,
+      "reward": -493.0,
+      "steps": 200,
+      "epsilon": 0.7495,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 145,
+      "reward": -424.5,
+      "steps": 200,
+      "epsilon": 0.748,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 146,
+      "reward": -595.0,
+      "steps": 200,
+      "epsilon": 0.7466,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 147,
+      "reward": -419.5,
+      "steps": 200,
+      "epsilon": 0.7451,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 148,
+      "reward": -508.0,
+      "steps": 200,
+      "epsilon": 0.7436,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 149,
+      "reward": -728.5,
+      "steps": 200,
+      "epsilon": 0.7421,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 150,
+      "reward": -554.5,
+      "steps": 200,
+      "epsilon": 0.7406,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 151,
+      "reward": -566.0,
+      "steps": 200,
+      "epsilon": 0.7391,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 152,
+      "reward": -398.5,
+      "steps": 200,
+      "epsilon": 0.7376,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 153,
+      "reward": -431.0,
+      "steps": 200,
+      "epsilon": 0.7362,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 154,
+      "reward": -453.5,
+      "steps": 200,
+      "epsilon": 0.7347,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 155,
+      "reward": -540.5,
+      "steps": 200,
+      "epsilon": 0.7332,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 156,
+      "reward": -620.0,
+      "steps": 200,
+      "epsilon": 0.7318,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 157,
+      "reward": -476.5,
+      "steps": 200,
+      "epsilon": 0.7303,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 158,
+      "reward": -474.0,
+      "steps": 200,
+      "epsilon": 0.7288,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 159,
+      "reward": -661.5,
+      "steps": 200,
+      "epsilon": 0.7274,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 160,
+      "reward": -514.0,
+      "steps": 200,
+      "epsilon": 0.7259,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 161,
+      "reward": -401.5,
+      "steps": 200,
+      "epsilon": 0.7245,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 162,
+      "reward": -428.5,
+      "steps": 200,
+      "epsilon": 0.723,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 163,
+      "reward": -565.0,
+      "steps": 200,
+      "epsilon": 0.7216,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 164,
+      "reward": -433.0,
+      "steps": 200,
+      "epsilon": 0.7201,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 165,
+      "reward": -338.5,
+      "steps": 200,
+      "epsilon": 0.7187,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 166,
+      "reward": -626.5,
+      "steps": 200,
+      "epsilon": 0.7172,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 167,
+      "reward": -657.0,
+      "steps": 200,
+      "epsilon": 0.7158,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 168,
+      "reward": -413.5,
+      "steps": 200,
+      "epsilon": 0.7144,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 169,
+      "reward": -589.0,
+      "steps": 200,
+      "epsilon": 0.713,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 170,
+      "reward": -477.5,
+      "steps": 200,
+      "epsilon": 0.7115,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 171,
+      "reward": -401.5,
+      "steps": 200,
+      "epsilon": 0.7101,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 172,
+      "reward": -415.0,
+      "steps": 200,
+      "epsilon": 0.7087,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 173,
+      "reward": -560.5,
+      "steps": 200,
+      "epsilon": 0.7073,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 174,
+      "reward": -442.0,
+      "steps": 200,
+      "epsilon": 0.7059,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 175,
+      "reward": -606.0,
+      "steps": 200,
+      "epsilon": 0.7044,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 176,
+      "reward": -572.5,
+      "steps": 200,
+      "epsilon": 0.703,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 177,
+      "reward": -604.0,
+      "steps": 200,
+      "epsilon": 0.7016,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 178,
+      "reward": -586.5,
+      "steps": 200,
+      "epsilon": 0.7002,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 179,
+      "reward": -491.5,
+      "steps": 200,
+      "epsilon": 0.6988,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 180,
+      "reward": -592.5,
+      "steps": 200,
+      "epsilon": 0.6974,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 181,
+      "reward": -708.5,
+      "steps": 200,
+      "epsilon": 0.696,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 182,
+      "reward": -509.5,
+      "steps": 200,
+      "epsilon": 0.6946,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 183,
+      "reward": -514.0,
+      "steps": 200,
+      "epsilon": 0.6932,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 184,
+      "reward": -667.0,
+      "steps": 200,
+      "epsilon": 0.6919,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 185,
+      "reward": -669.5,
+      "steps": 200,
+      "epsilon": 0.6905,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 186,
+      "reward": -614.5,
+      "steps": 200,
+      "epsilon": 0.6891,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 187,
+      "reward": -613.0,
+      "steps": 200,
+      "epsilon": 0.6877,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 188,
+      "reward": -475.0,
+      "steps": 200,
+      "epsilon": 0.6863,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 189,
+      "reward": -644.5,
+      "steps": 200,
+      "epsilon": 0.685,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 190,
+      "reward": -521.0,
+      "steps": 200,
+      "epsilon": 0.6836,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 191,
+      "reward": -575.0,
+      "steps": 200,
+      "epsilon": 0.6822,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 192,
+      "reward": -670.0,
+      "steps": 200,
+      "epsilon": 0.6809,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 193,
+      "reward": -478.0,
+      "steps": 200,
+      "epsilon": 0.6795,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 194,
+      "reward": -532.0,
+      "steps": 200,
+      "epsilon": 0.6781,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 195,
+      "reward": -625.5,
+      "steps": 200,
+      "epsilon": 0.6768,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 196,
+      "reward": -619.0,
+      "steps": 200,
+      "epsilon": 0.6754,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 197,
+      "reward": -590.5,
+      "steps": 200,
+      "epsilon": 0.6741,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 198,
+      "reward": -463.5,
+      "steps": 200,
+      "epsilon": 0.6727,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 199,
+      "reward": -553.5,
+      "steps": 200,
+      "epsilon": 0.6714,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 200,
+      "reward": -509.5,
+      "steps": 200,
+      "epsilon": 0.6701,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 201,
+      "reward": -819.0,
+      "steps": 200,
+      "epsilon": 0.6687,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 202,
+      "reward": -545.5,
+      "steps": 200,
+      "epsilon": 0.6674,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 203,
+      "reward": -514.0,
+      "steps": 200,
+      "epsilon": 0.666,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 204,
+      "reward": -615.5,
+      "steps": 200,
+      "epsilon": 0.6647,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 205,
+      "reward": -527.5,
+      "steps": 200,
+      "epsilon": 0.6634,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 206,
+      "reward": -527.0,
+      "steps": 200,
+      "epsilon": 0.6621,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 207,
+      "reward": -596.5,
+      "steps": 200,
+      "epsilon": 0.6607,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 208,
+      "reward": -473.5,
+      "steps": 200,
+      "epsilon": 0.6594,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 209,
+      "reward": -601.5,
+      "steps": 200,
+      "epsilon": 0.6581,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 210,
+      "reward": -676.0,
+      "steps": 200,
+      "epsilon": 0.6568,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 211,
+      "reward": -561.0,
+      "steps": 200,
+      "epsilon": 0.6555,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 212,
+      "reward": -682.5,
+      "steps": 200,
+      "epsilon": 0.6541,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 213,
+      "reward": -480.0,
+      "steps": 200,
+      "epsilon": 0.6528,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 214,
+      "reward": -581.5,
+      "steps": 200,
+      "epsilon": 0.6515,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 215,
+      "reward": -638.0,
+      "steps": 200,
+      "epsilon": 0.6502,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 216,
+      "reward": -644.5,
+      "steps": 200,
+      "epsilon": 0.6489,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 217,
+      "reward": -537.5,
+      "steps": 200,
+      "epsilon": 0.6476,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 218,
+      "reward": -469.0,
+      "steps": 200,
+      "epsilon": 0.6463,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 219,
+      "reward": -599.5,
+      "steps": 200,
+      "epsilon": 0.645,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 220,
+      "reward": -545.0,
+      "steps": 200,
+      "epsilon": 0.6438,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 221,
+      "reward": -565.0,
+      "steps": 200,
+      "epsilon": 0.6425,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 222,
+      "reward": -442.5,
+      "steps": 200,
+      "epsilon": 0.6412,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 223,
+      "reward": -554.0,
+      "steps": 200,
+      "epsilon": 0.6399,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 224,
+      "reward": -397.0,
+      "steps": 200,
+      "epsilon": 0.6386,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 225,
+      "reward": -500.5,
+      "steps": 200,
+      "epsilon": 0.6373,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 226,
+      "reward": -428.5,
+      "steps": 200,
+      "epsilon": 0.6361,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 227,
+      "reward": -478.5,
+      "steps": 200,
+      "epsilon": 0.6348,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 228,
+      "reward": -505.0,
+      "steps": 200,
+      "epsilon": 0.6335,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 229,
+      "reward": -573.5,
+      "steps": 200,
+      "epsilon": 0.6323,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 230,
+      "reward": -500.5,
+      "steps": 200,
+      "epsilon": 0.631,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 231,
+      "reward": -585.5,
+      "steps": 200,
+      "epsilon": 0.6297,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 232,
+      "reward": -575.5,
+      "steps": 200,
+      "epsilon": 0.6285,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 233,
+      "reward": -599.5,
+      "steps": 200,
+      "epsilon": 0.6272,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 234,
+      "reward": -532.0,
+      "steps": 200,
+      "epsilon": 0.626,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 235,
+      "reward": -555.5,
+      "steps": 200,
+      "epsilon": 0.6247,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 236,
+      "reward": -657.5,
+      "steps": 200,
+      "epsilon": 0.6235,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 237,
+      "reward": -710.0,
+      "steps": 200,
+      "epsilon": 0.6222,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 238,
+      "reward": -469.0,
+      "steps": 200,
+      "epsilon": 0.621,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 239,
+      "reward": -528.5,
+      "steps": 200,
+      "epsilon": 0.6197,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 240,
+      "reward": -564.5,
+      "steps": 200,
+      "epsilon": 0.6185,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 241,
+      "reward": -642.0,
+      "steps": 200,
+      "epsilon": 0.6172,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 242,
+      "reward": -563.5,
+      "steps": 200,
+      "epsilon": 0.616,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 243,
+      "reward": -607.0,
+      "steps": 200,
+      "epsilon": 0.6148,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 244,
+      "reward": -572.5,
+      "steps": 200,
+      "epsilon": 0.6136,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 245,
+      "reward": -406.5,
+      "steps": 200,
+      "epsilon": 0.6123,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 246,
+      "reward": -694.0,
+      "steps": 200,
+      "epsilon": 0.6111,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 247,
+      "reward": -578.5,
+      "steps": 200,
+      "epsilon": 0.6099,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 248,
+      "reward": -626.5,
+      "steps": 200,
+      "epsilon": 0.6087,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 249,
+      "reward": -644.5,
+      "steps": 200,
+      "epsilon": 0.6074,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 250,
+      "reward": -559.0,
+      "steps": 200,
+      "epsilon": 0.6062,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 251,
+      "reward": -559.0,
+      "steps": 200,
+      "epsilon": 0.605,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 252,
+      "reward": -590.5,
+      "steps": 200,
+      "epsilon": 0.6038,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 253,
+      "reward": -520.0,
+      "steps": 200,
+      "epsilon": 0.6026,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 254,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.6014,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 255,
+      "reward": -541.5,
+      "steps": 200,
+      "epsilon": 0.6002,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 256,
+      "reward": -616.5,
+      "steps": 200,
+      "epsilon": 0.599,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 257,
+      "reward": -667.0,
+      "steps": 200,
+      "epsilon": 0.5978,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 258,
+      "reward": -514.0,
+      "steps": 200,
+      "epsilon": 0.5966,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 259,
+      "reward": -523.0,
+      "steps": 200,
+      "epsilon": 0.5954,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 260,
+      "reward": -577.5,
+      "steps": 200,
+      "epsilon": 0.5942,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 261,
+      "reward": -643.0,
+      "steps": 200,
+      "epsilon": 0.593,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 262,
+      "reward": -601.0,
+      "steps": 200,
+      "epsilon": 0.5918,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 263,
+      "reward": -843.0,
+      "steps": 200,
+      "epsilon": 0.5907,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 264,
+      "reward": -648.0,
+      "steps": 200,
+      "epsilon": 0.5895,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 265,
+      "reward": -600.0,
+      "steps": 200,
+      "epsilon": 0.5883,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 266,
+      "reward": -595.0,
+      "steps": 200,
+      "epsilon": 0.5871,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 267,
+      "reward": -713.5,
+      "steps": 200,
+      "epsilon": 0.5859,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 268,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.5848,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 269,
+      "reward": -599.5,
+      "steps": 200,
+      "epsilon": 0.5836,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 270,
+      "reward": -745.5,
+      "steps": 200,
+      "epsilon": 0.5824,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 271,
+      "reward": -563.5,
+      "steps": 200,
+      "epsilon": 0.5813,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 272,
+      "reward": -697.0,
+      "steps": 200,
+      "epsilon": 0.5801,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 273,
+      "reward": -514.0,
+      "steps": 200,
+      "epsilon": 0.5789,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 274,
+      "reward": -626.0,
+      "steps": 200,
+      "epsilon": 0.5778,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 275,
+      "reward": -617.5,
+      "steps": 200,
+      "epsilon": 0.5766,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 276,
+      "reward": -559.0,
+      "steps": 200,
+      "epsilon": 0.5755,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 277,
+      "reward": -505.0,
+      "steps": 200,
+      "epsilon": 0.5743,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 278,
+      "reward": -602.5,
+      "steps": 200,
+      "epsilon": 0.5732,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 279,
+      "reward": -681.0,
+      "steps": 200,
+      "epsilon": 0.572,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 280,
+      "reward": -509.5,
+      "steps": 200,
+      "epsilon": 0.5709,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 281,
+      "reward": -648.0,
+      "steps": 200,
+      "epsilon": 0.5697,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 282,
+      "reward": -586.0,
+      "steps": 200,
+      "epsilon": 0.5686,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 283,
+      "reward": -636.5,
+      "steps": 200,
+      "epsilon": 0.5675,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 284,
+      "reward": -752.5,
+      "steps": 200,
+      "epsilon": 0.5663,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 285,
+      "reward": -596.0,
+      "steps": 200,
+      "epsilon": 0.5652,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 286,
+      "reward": -527.5,
+      "steps": 200,
+      "epsilon": 0.5641,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 287,
+      "reward": -830.0,
+      "steps": 200,
+      "epsilon": 0.5629,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 288,
+      "reward": -632.5,
+      "steps": 200,
+      "epsilon": 0.5618,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 289,
+      "reward": -621.5,
+      "steps": 200,
+      "epsilon": 0.5607,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 290,
+      "reward": -662.5,
+      "steps": 200,
+      "epsilon": 0.5596,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 291,
+      "reward": -584.0,
+      "steps": 200,
+      "epsilon": 0.5585,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 292,
+      "reward": -577.0,
+      "steps": 200,
+      "epsilon": 0.5573,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 293,
+      "reward": -568.0,
+      "steps": 200,
+      "epsilon": 0.5562,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 294,
+      "reward": -626.5,
+      "steps": 200,
+      "epsilon": 0.5551,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 295,
+      "reward": -712.0,
+      "steps": 200,
+      "epsilon": 0.554,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 296,
+      "reward": -735.0,
+      "steps": 200,
+      "epsilon": 0.5529,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 297,
+      "reward": -573.0,
+      "steps": 200,
+      "epsilon": 0.5518,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 298,
+      "reward": -653.5,
+      "steps": 200,
+      "epsilon": 0.5507,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 299,
+      "reward": -662.5,
+      "steps": 200,
+      "epsilon": 0.5496,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 300,
+      "reward": -541.0,
+      "steps": 200,
+      "epsilon": 0.5485,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 301,
+      "reward": -632.5,
+      "steps": 200,
+      "epsilon": 0.5474,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 302,
+      "reward": -685.0,
+      "steps": 200,
+      "epsilon": 0.5463,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 303,
+      "reward": -658.5,
+      "steps": 200,
+      "epsilon": 0.5452,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 304,
+      "reward": -681.5,
+      "steps": 200,
+      "epsilon": 0.5441,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 305,
+      "reward": -595.0,
+      "steps": 200,
+      "epsilon": 0.543,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 306,
+      "reward": -583.5,
+      "steps": 200,
+      "epsilon": 0.5419,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 307,
+      "reward": -545.5,
+      "steps": 200,
+      "epsilon": 0.5408,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 308,
+      "reward": -532.0,
+      "steps": 200,
+      "epsilon": 0.5398,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 309,
+      "reward": -702.0,
+      "steps": 200,
+      "epsilon": 0.5387,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 310,
+      "reward": -842.0,
+      "steps": 200,
+      "epsilon": 0.5376,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 311,
+      "reward": -572.5,
+      "steps": 200,
+      "epsilon": 0.5365,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 312,
+      "reward": -703.0,
+      "steps": 200,
+      "epsilon": 0.5355,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 313,
+      "reward": -611.5,
+      "steps": 200,
+      "epsilon": 0.5344,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 314,
+      "reward": -661.5,
+      "steps": 200,
+      "epsilon": 0.5333,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 315,
+      "reward": -569.0,
+      "steps": 200,
+      "epsilon": 0.5323,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 316,
+      "reward": -716.5,
+      "steps": 200,
+      "epsilon": 0.5312,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 317,
+      "reward": -617.5,
+      "steps": 200,
+      "epsilon": 0.5301,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 318,
+      "reward": -587.5,
+      "steps": 200,
+      "epsilon": 0.5291,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 319,
+      "reward": -568.0,
+      "steps": 200,
+      "epsilon": 0.528,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 320,
+      "reward": -627.0,
+      "steps": 200,
+      "epsilon": 0.527,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 321,
+      "reward": -734.5,
+      "steps": 200,
+      "epsilon": 0.5259,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 322,
+      "reward": -725.0,
+      "steps": 200,
+      "epsilon": 0.5248,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 323,
+      "reward": -699.5,
+      "steps": 200,
+      "epsilon": 0.5238,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 324,
+      "reward": -716.5,
+      "steps": 200,
+      "epsilon": 0.5228,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 325,
+      "reward": -653.5,
+      "steps": 200,
+      "epsilon": 0.5217,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 326,
+      "reward": -631.0,
+      "steps": 200,
+      "epsilon": 0.5207,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 327,
+      "reward": -744.5,
+      "steps": 200,
+      "epsilon": 0.5196,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 328,
+      "reward": -663.5,
+      "steps": 200,
+      "epsilon": 0.5186,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 329,
+      "reward": -715.0,
+      "steps": 200,
+      "epsilon": 0.5175,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 330,
+      "reward": -777.5,
+      "steps": 200,
+      "epsilon": 0.5165,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 331,
+      "reward": -608.5,
+      "steps": 200,
+      "epsilon": 0.5155,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 332,
+      "reward": -691.0,
+      "steps": 200,
+      "epsilon": 0.5144,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 333,
+      "reward": -673.0,
+      "steps": 200,
+      "epsilon": 0.5134,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 334,
+      "reward": -681.5,
+      "steps": 200,
+      "epsilon": 0.5124,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 335,
+      "reward": -515.0,
+      "steps": 200,
+      "epsilon": 0.5114,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 336,
+      "reward": -631.5,
+      "steps": 200,
+      "epsilon": 0.5103,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 337,
+      "reward": -604.0,
+      "steps": 200,
+      "epsilon": 0.5093,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 338,
+      "reward": -640.0,
+      "steps": 200,
+      "epsilon": 0.5083,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 339,
+      "reward": -587.0,
+      "steps": 200,
+      "epsilon": 0.5073,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 340,
+      "reward": -770.5,
+      "steps": 200,
+      "epsilon": 0.5063,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 341,
+      "reward": -680.5,
+      "steps": 200,
+      "epsilon": 0.5053,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 342,
+      "reward": -647.5,
+      "steps": 200,
+      "epsilon": 0.5042,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 343,
+      "reward": -680.5,
+      "steps": 200,
+      "epsilon": 0.5032,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 344,
+      "reward": -622.0,
+      "steps": 200,
+      "epsilon": 0.5022,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 345,
+      "reward": -671.5,
+      "steps": 200,
+      "epsilon": 0.5012,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 346,
+      "reward": -618.0,
+      "steps": 200,
+      "epsilon": 0.5002,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 347,
+      "reward": -707.0,
+      "steps": 200,
+      "epsilon": 0.4992,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 348,
+      "reward": -572.5,
+      "steps": 200,
+      "epsilon": 0.4982,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 349,
+      "reward": -672.5,
+      "steps": 200,
+      "epsilon": 0.4972,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 350,
+      "reward": -708.0,
+      "steps": 200,
+      "epsilon": 0.4962,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 351,
+      "reward": -777.0,
+      "steps": 200,
+      "epsilon": 0.4952,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 352,
+      "reward": -653.5,
+      "steps": 200,
+      "epsilon": 0.4943,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 353,
+      "reward": -716.0,
+      "steps": 200,
+      "epsilon": 0.4933,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 354,
+      "reward": -703.0,
+      "steps": 200,
+      "epsilon": 0.4923,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 355,
+      "reward": -647.0,
+      "steps": 200,
+      "epsilon": 0.4913,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 356,
+      "reward": -617.5,
+      "steps": 200,
+      "epsilon": 0.4903,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 357,
+      "reward": -681.5,
+      "steps": 200,
+      "epsilon": 0.4893,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 358,
+      "reward": -690.5,
+      "steps": 200,
+      "epsilon": 0.4884,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 359,
+      "reward": -622.0,
+      "steps": 200,
+      "epsilon": 0.4874,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 360,
+      "reward": -694.5,
+      "steps": 200,
+      "epsilon": 0.4864,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 361,
+      "reward": -758.5,
+      "steps": 200,
+      "epsilon": 0.4854,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 362,
+      "reward": -599.5,
+      "steps": 200,
+      "epsilon": 0.4845,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 363,
+      "reward": -617.5,
+      "steps": 200,
+      "epsilon": 0.4835,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 364,
+      "reward": -579.5,
+      "steps": 200,
+      "epsilon": 0.4825,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 365,
+      "reward": -707.5,
+      "steps": 200,
+      "epsilon": 0.4816,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 366,
+      "reward": -649.0,
+      "steps": 200,
+      "epsilon": 0.4806,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 367,
+      "reward": -797.5,
+      "steps": 200,
+      "epsilon": 0.4796,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 368,
+      "reward": -689.5,
+      "steps": 200,
+      "epsilon": 0.4787,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 369,
+      "reward": -590.5,
+      "steps": 200,
+      "epsilon": 0.4777,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 370,
+      "reward": -703.5,
+      "steps": 200,
+      "epsilon": 0.4768,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 371,
+      "reward": -653.5,
+      "steps": 200,
+      "epsilon": 0.4758,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 372,
+      "reward": -617.5,
+      "steps": 200,
+      "epsilon": 0.4749,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 373,
+      "reward": -543.0,
+      "steps": 200,
+      "epsilon": 0.4739,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 374,
+      "reward": -676.0,
+      "steps": 200,
+      "epsilon": 0.473,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 375,
+      "reward": -654.5,
+      "steps": 200,
+      "epsilon": 0.472,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 376,
+      "reward": -633.5,
+      "steps": 200,
+      "epsilon": 0.4711,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 377,
+      "reward": -703.5,
+      "steps": 200,
+      "epsilon": 0.4701,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 378,
+      "reward": -846.5,
+      "steps": 200,
+      "epsilon": 0.4692,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 379,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.4682,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 380,
+      "reward": -864.0,
+      "steps": 200,
+      "epsilon": 0.4673,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 381,
+      "reward": -818.5,
+      "steps": 200,
+      "epsilon": 0.4664,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 382,
+      "reward": -708.0,
+      "steps": 200,
+      "epsilon": 0.4654,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 383,
+      "reward": -762.5,
+      "steps": 200,
+      "epsilon": 0.4645,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 384,
+      "reward": -887.5,
+      "steps": 200,
+      "epsilon": 0.4636,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 385,
+      "reward": -730.0,
+      "steps": 200,
+      "epsilon": 0.4627,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 386,
+      "reward": -726.5,
+      "steps": 200,
+      "epsilon": 0.4617,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 387,
+      "reward": -646.5,
+      "steps": 200,
+      "epsilon": 0.4608,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 388,
+      "reward": -641.0,
+      "steps": 200,
+      "epsilon": 0.4599,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 389,
+      "reward": -699.5,
+      "steps": 200,
+      "epsilon": 0.459,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 390,
+      "reward": -635.5,
+      "steps": 200,
+      "epsilon": 0.458,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 391,
+      "reward": -685.0,
+      "steps": 200,
+      "epsilon": 0.4571,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 392,
+      "reward": -626.5,
+      "steps": 200,
+      "epsilon": 0.4562,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 393,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.4553,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 394,
+      "reward": -649.0,
+      "steps": 200,
+      "epsilon": 0.4544,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 395,
+      "reward": -713.0,
+      "steps": 200,
+      "epsilon": 0.4535,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 396,
+      "reward": -511.0,
+      "steps": 200,
+      "epsilon": 0.4526,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 397,
+      "reward": -658.0,
+      "steps": 200,
+      "epsilon": 0.4517,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 398,
+      "reward": -622.0,
+      "steps": 200,
+      "epsilon": 0.4508,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 399,
+      "reward": -695.0,
+      "steps": 200,
+      "epsilon": 0.4499,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 400,
+      "reward": -770.5,
+      "steps": 200,
+      "epsilon": 0.449,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 401,
+      "reward": -599.5,
+      "steps": 200,
+      "epsilon": 0.4481,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 402,
+      "reward": -649.0,
+      "steps": 200,
+      "epsilon": 0.4472,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 403,
+      "reward": -686.5,
+      "steps": 200,
+      "epsilon": 0.4463,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 404,
+      "reward": -775.0,
+      "steps": 200,
+      "epsilon": 0.4454,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 405,
+      "reward": -595.0,
+      "steps": 200,
+      "epsilon": 0.4445,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 406,
+      "reward": -757.0,
+      "steps": 200,
+      "epsilon": 0.4436,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 407,
+      "reward": -708.0,
+      "steps": 200,
+      "epsilon": 0.4427,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 408,
+      "reward": -747.5,
+      "steps": 200,
+      "epsilon": 0.4418,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 409,
+      "reward": -748.0,
+      "steps": 200,
+      "epsilon": 0.441,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 410,
+      "reward": -757.0,
+      "steps": 200,
+      "epsilon": 0.4401,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 411,
+      "reward": -626.5,
+      "steps": 200,
+      "epsilon": 0.4392,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 412,
+      "reward": -735.0,
+      "steps": 200,
+      "epsilon": 0.4383,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 413,
+      "reward": -676.0,
+      "steps": 200,
+      "epsilon": 0.4374,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 414,
+      "reward": -628.0,
+      "steps": 200,
+      "epsilon": 0.4366,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 415,
+      "reward": -763.5,
+      "steps": 200,
+      "epsilon": 0.4357,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 416,
+      "reward": -759.5,
+      "steps": 200,
+      "epsilon": 0.4348,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 417,
+      "reward": -744.0,
+      "steps": 200,
+      "epsilon": 0.4339,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 418,
+      "reward": -797.5,
+      "steps": 200,
+      "epsilon": 0.4331,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 419,
+      "reward": -743.5,
+      "steps": 200,
+      "epsilon": 0.4322,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 420,
+      "reward": -758.0,
+      "steps": 200,
+      "epsilon": 0.4313,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 421,
+      "reward": -608.5,
+      "steps": 200,
+      "epsilon": 0.4305,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 422,
+      "reward": -739.0,
+      "steps": 200,
+      "epsilon": 0.4296,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 423,
+      "reward": -797.5,
+      "steps": 200,
+      "epsilon": 0.4288,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 424,
+      "reward": -770.5,
+      "steps": 200,
+      "epsilon": 0.4279,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 425,
+      "reward": -653.5,
+      "steps": 200,
+      "epsilon": 0.4271,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 426,
+      "reward": -601.5,
+      "steps": 200,
+      "epsilon": 0.4262,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 427,
+      "reward": -835.5,
+      "steps": 200,
+      "epsilon": 0.4253,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 428,
+      "reward": -752.5,
+      "steps": 200,
+      "epsilon": 0.4245,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 429,
+      "reward": -826.0,
+      "steps": 200,
+      "epsilon": 0.4236,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 430,
+      "reward": -725.5,
+      "steps": 200,
+      "epsilon": 0.4228,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 431,
+      "reward": -809.5,
+      "steps": 200,
+      "epsilon": 0.422,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 432,
+      "reward": -689.5,
+      "steps": 200,
+      "epsilon": 0.4211,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 433,
+      "reward": -716.5,
+      "steps": 200,
+      "epsilon": 0.4203,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 434,
+      "reward": -613.0,
+      "steps": 200,
+      "epsilon": 0.4194,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 435,
+      "reward": -689.5,
+      "steps": 200,
+      "epsilon": 0.4186,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 436,
+      "reward": -658.0,
+      "steps": 200,
+      "epsilon": 0.4177,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 437,
+      "reward": -770.5,
+      "steps": 200,
+      "epsilon": 0.4169,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 438,
+      "reward": -649.0,
+      "steps": 200,
+      "epsilon": 0.4161,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 439,
+      "reward": -662.5,
+      "steps": 200,
+      "epsilon": 0.4152,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 440,
+      "reward": -876.0,
+      "steps": 200,
+      "epsilon": 0.4144,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 441,
+      "reward": -725.5,
+      "steps": 200,
+      "epsilon": 0.4136,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 442,
+      "reward": -663.0,
+      "steps": 200,
+      "epsilon": 0.4128,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 443,
+      "reward": -811.0,
+      "steps": 200,
+      "epsilon": 0.4119,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 444,
+      "reward": -793.0,
+      "steps": 200,
+      "epsilon": 0.4111,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 445,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.4103,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 446,
+      "reward": -752.5,
+      "steps": 200,
+      "epsilon": 0.4095,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 447,
+      "reward": -697.0,
+      "steps": 200,
+      "epsilon": 0.4087,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 448,
+      "reward": -775.5,
+      "steps": 200,
+      "epsilon": 0.4078,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 449,
+      "reward": -712.0,
+      "steps": 200,
+      "epsilon": 0.407,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 450,
+      "reward": -743.5,
+      "steps": 200,
+      "epsilon": 0.4062,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 451,
+      "reward": -784.0,
+      "steps": 200,
+      "epsilon": 0.4054,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 452,
+      "reward": -734.5,
+      "steps": 200,
+      "epsilon": 0.4046,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 453,
+      "reward": -779.5,
+      "steps": 200,
+      "epsilon": 0.4038,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 454,
+      "reward": -646.5,
+      "steps": 200,
+      "epsilon": 0.403,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 455,
+      "reward": -626.5,
+      "steps": 200,
+      "epsilon": 0.4022,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 456,
+      "reward": -654.0,
+      "steps": 200,
+      "epsilon": 0.4014,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 457,
+      "reward": -730.0,
+      "steps": 200,
+      "epsilon": 0.4006,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 458,
+      "reward": -659.0,
+      "steps": 200,
+      "epsilon": 0.3997,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 459,
+      "reward": -748.0,
+      "steps": 200,
+      "epsilon": 0.3989,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 460,
+      "reward": -793.0,
+      "steps": 200,
+      "epsilon": 0.3982,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 461,
+      "reward": -819.5,
+      "steps": 200,
+      "epsilon": 0.3974,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 462,
+      "reward": -784.0,
+      "steps": 200,
+      "epsilon": 0.3966,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 463,
+      "reward": -707.5,
+      "steps": 200,
+      "epsilon": 0.3958,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 464,
+      "reward": -694.0,
+      "steps": 200,
+      "epsilon": 0.395,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 465,
+      "reward": -754.0,
+      "steps": 200,
+      "epsilon": 0.3942,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 466,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.3934,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 467,
+      "reward": -676.0,
+      "steps": 200,
+      "epsilon": 0.3926,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 468,
+      "reward": -703.0,
+      "steps": 200,
+      "epsilon": 0.3918,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 469,
+      "reward": -649.0,
+      "steps": 200,
+      "epsilon": 0.391,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 470,
+      "reward": -717.0,
+      "steps": 200,
+      "epsilon": 0.3903,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 471,
+      "reward": -748.0,
+      "steps": 200,
+      "epsilon": 0.3895,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 472,
+      "reward": -766.5,
+      "steps": 200,
+      "epsilon": 0.3887,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 473,
+      "reward": -743.5,
+      "steps": 200,
+      "epsilon": 0.3879,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 474,
+      "reward": -772.0,
+      "steps": 200,
+      "epsilon": 0.3871,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 475,
+      "reward": -685.0,
+      "steps": 200,
+      "epsilon": 0.3864,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 476,
+      "reward": -754.5,
+      "steps": 200,
+      "epsilon": 0.3856,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 477,
+      "reward": -793.0,
+      "steps": 200,
+      "epsilon": 0.3848,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 478,
+      "reward": -671.5,
+      "steps": 200,
+      "epsilon": 0.3841,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 479,
+      "reward": -793.0,
+      "steps": 200,
+      "epsilon": 0.3833,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 480,
+      "reward": -843.5,
+      "steps": 200,
+      "epsilon": 0.3825,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 481,
+      "reward": -766.0,
+      "steps": 200,
+      "epsilon": 0.3818,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 482,
+      "reward": -745.0,
+      "steps": 200,
+      "epsilon": 0.381,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 483,
+      "reward": -662.5,
+      "steps": 200,
+      "epsilon": 0.3802,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 484,
+      "reward": -783.5,
+      "steps": 200,
+      "epsilon": 0.3795,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 485,
+      "reward": -900.5,
+      "steps": 200,
+      "epsilon": 0.3787,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 486,
+      "reward": -734.5,
+      "steps": 200,
+      "epsilon": 0.378,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 487,
+      "reward": -816.5,
+      "steps": 200,
+      "epsilon": 0.3772,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 488,
+      "reward": -743.5,
+      "steps": 200,
+      "epsilon": 0.3764,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 489,
+      "reward": -802.0,
+      "steps": 200,
+      "epsilon": 0.3757,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 490,
+      "reward": -743.5,
+      "steps": 200,
+      "epsilon": 0.3749,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 491,
+      "reward": -759.0,
+      "steps": 200,
+      "epsilon": 0.3742,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 492,
+      "reward": -793.0,
+      "steps": 200,
+      "epsilon": 0.3734,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 493,
+      "reward": -667.0,
+      "steps": 200,
+      "epsilon": 0.3727,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 494,
+      "reward": -698.5,
+      "steps": 200,
+      "epsilon": 0.372,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 495,
+      "reward": -824.5,
+      "steps": 200,
+      "epsilon": 0.3712,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 496,
+      "reward": -712.0,
+      "steps": 200,
+      "epsilon": 0.3705,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 497,
+      "reward": -752.5,
+      "steps": 200,
+      "epsilon": 0.3697,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 498,
+      "reward": -685.0,
+      "steps": 200,
+      "epsilon": 0.369,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 499,
+      "reward": -817.0,
+      "steps": 200,
+      "epsilon": 0.3682,
+      "event": "timeout",
+      "memory_size": 10000
+    },
+    {
+      "episode": 500,
+      "reward": -845.0,
+      "steps": 200,
+      "epsilon": 0.3675,
+      "event": "timeout",
+      "memory_size": 10000
+    }
+  ],
+  "summary": {
+    "total_episodes": 500,
+    "total_time": 54.4,
+    "best_reward": -45.0,
+    "final_avg_reward": -743.6,
+    "final_avg_steps": 200.0,
+    "goals_reached": 16,
+    "success_rate": 3.2,
+    "brain_stats": {
+      "episode": 500,
+      "train_step": 49388,
+      "epsilon": 0.3675,
+      "avg_reward_last_50": -743.58,
+      "max_reward": -626.5
+    },
+    "robot_stats": {
+      "name": "Atlas-1",
+      "total_episodes": 500,
+      "total_steps": 98835,
+      "goals_reached": 16,
+      "success_rate": 3.2,
+      "avg_reward": -6.0
+    },
+    "memory_stats": {
+      "size": 10000,
+      "capacity": 10000,
+      "fill_pct": 100.0,
+      "avg_reward": -3.718,
+      "total_added": 98835
+    }
+  },
+  "evaluation": {
+    "episodes": 20,
+    "avg_reward": -998.9,
+    "std_reward": 3.2,
+    "avg_steps": 200.0,
+    "goals": 0,
+    "success_rate": 0.0
+  },
+  "live_stats": {
+    "brain": {
+      "episode": 500,
+      "train_step": 49388,
+      "epsilon": 0.3675,
+      "avg_reward_last_50": -743.58,
+      "max_reward": -626.5
+    },
+    "robot": {
+      "name": "Atlas-1",
+      "total_episodes": 520,
+      "total_steps": 102835,
+      "goals_reached": 16,
+      "success_rate": 3.1,
+      "avg_reward": -5.8
+    },
+    "memory": {
+      "size": 10000,
+      "capacity": 10000,
+      "fill_pct": 100.0,
+      "avg_reward": -3.718,
+      "total_added": 98835
+    },
+    "environment": {
+      "robot_pos": [
+        2,
+        0
+      ],
+      "goal_pos": [
+        5,
+        5
+      ],
+      "step": 200,
+      "max_steps": 200,
+      "explored_pct": 23.4,
+      "manhattan_to_goal": 8,
+      "episode_reward": -1000.0
+    },
+    "training": {
+      "avg_reward_50": -743.6,
+      "max_reward": -626.5,
+      "best_ever": -45.0,
+      "total_episodes": 500
+    }
+  }
+}
