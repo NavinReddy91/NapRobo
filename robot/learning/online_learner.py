@@ -8,8 +8,19 @@ external sources. Uses web scraping and AI knowledge integration.
 import json
 import urllib.request
 import urllib.parse
+import os
+import logging
 from typing import Dict, List, Optional
 from datetime import datetime
+
+from robot.utils.security import (
+    validate_path,
+    safe_json_load,
+    safe_json_save,
+    log_safe_error,
+)
+
+logger = logging.getLogger(__name__)
 
 
 class OnlineLearner:
@@ -30,21 +41,17 @@ class OnlineLearner:
 
     def _load_cache(self) -> Dict:
         """Load cached knowledge."""
-        import os
-
         if os.path.exists(self.cache_file):
             try:
-                with open(self.cache_file, "r") as f:
-                    return json.load(f)
-            except:
-                pass
+                return safe_json_load(self.cache_file)
+            except (json.JSONDecodeError, FileNotFoundError, ValueError) as e:
+                log_safe_error(e, context="loading online cache")
         return {"searches": {}, "learned": [], "last_updated": None}
 
     def _save_cache(self):
         """Save cache to file."""
         self.cache["last_updated"] = datetime.now().isoformat()
-        with open(self.cache_file, "w") as f:
-            json.dump(self.cache, f, indent=2)
+        safe_json_save(self.cache_file, self.cache)
 
     def search(self, query: str, max_results: int = 5) -> List[Dict]:
         """

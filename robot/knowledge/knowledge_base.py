@@ -1,6 +1,6 @@
 """
 Knowledge Base — AI-Usable Knowledge System
-=============================================
+============================================
 Stores and retrieves learned knowledge, patterns, and strategies.
 The robot can search, learn from experiences, and apply knowledge
 to new situations.
@@ -8,9 +8,19 @@ to new situations.
 
 import json
 import os
+import logging
 import numpy as np
 from typing import Dict, List, Any
 from datetime import datetime
+
+from robot.utils.security import (
+    validate_path,
+    safe_json_load,
+    safe_json_save,
+    log_safe_error,
+)
+
+logger = logging.getLogger(__name__)
 
 
 class KnowledgeBase:
@@ -43,10 +53,11 @@ class KnowledgeBase:
         """Load knowledge from file if exists."""
         if os.path.exists(self.filepath):
             try:
-                with open(self.filepath, "r") as f:
-                    self.knowledge = json.load(f)
-            except Exception as e:
-                print(f"Warning: Could not load knowledge base: {e}")
+                self.knowledge = safe_json_load(
+                    self.filepath, expected_keys=["patterns", "strategies", "metadata"]
+                )
+            except (ValueError, json.JSONDecodeError, FileNotFoundError) as e:
+                log_safe_error(e, context="loading knowledge base")
 
     def _save(self):
         """Save knowledge to file."""
@@ -54,12 +65,7 @@ class KnowledgeBase:
         self.knowledge["metadata"]["total_entries"] = len(
             self.knowledge["patterns"]
         ) + len(self.knowledge["strategies"])
-        os.makedirs(
-            os.path.dirname(self.filepath) if os.path.dirname(self.filepath) else ".",
-            exist_ok=True,
-        )
-        with open(self.filepath, "w") as f:
-            json.dump(self.knowledge, f, indent=2)
+        safe_json_save(self.filepath, self.knowledge)
 
     def learn_pattern(
         self, state: np.ndarray, action: int, reward: float, success: bool

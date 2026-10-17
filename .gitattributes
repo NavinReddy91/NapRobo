@@ -1,0 +1,17 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Ensure these files are treated as binary
+*.pt binary
+*.pth binary
+*.pkl binary
+*.pickle binary
+
+# Mark large files
+*.json diff=json
+
+# Security: prevent accidental commits
+.git/config export-ignore
+*.env export-ignore
+*.key export-ignore
+*.pem export-ignore

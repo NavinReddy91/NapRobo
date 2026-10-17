@@ -11,6 +11,16 @@ No PyTorch dependency — runs anywhere with NumPy.
 import numpy as np
 import json
 import os
+import logging
+
+from robot.utils.security import (
+    validate_path,
+    safe_json_load,
+    safe_json_save,
+    log_safe_error,
+)
+
+logger = logging.getLogger(__name__)
 
 
 class Layer:
@@ -270,9 +280,6 @@ class RobotBrain:
 
     def save(self, path: str):
         """Save brain state to file."""
-        os.makedirs(
-            os.path.dirname(path) if os.path.dirname(path) else ".", exist_ok=True
-        )
         data = {
             "policy_net": self.policy_net.save(),
             "target_net": self.target_net.save(),
@@ -288,13 +295,20 @@ class RobotBrain:
                 "epsilon_decay": self.epsilon_decay,
             },
         }
-        with open(path, "w") as f:
-            json.dump(data, f)
+        safe_json_save(path, data)
 
     def load(self, path: str):
         """Load brain state from file."""
-        with open(path, "r") as f:
-            data = json.load(f)
+        data = safe_json_load(
+            path,
+            expected_keys=[
+                "policy_net",
+                "target_net",
+                "epsilon",
+                "episode_count",
+                "train_step",
+            ],
+        )
         self.policy_net.load(data["policy_net"])
         self.target_net.load(data["target_net"])
         self.epsilon = data["epsilon"]

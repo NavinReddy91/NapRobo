@@ -36,8 +36,20 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Large model files (keep small checkpoints)
-# checkpoints/*.json
+# Large model files and checkpoints
+checkpoints/*.json
+checkpoints/*.pt
+checkpoints/*.pth
 
 # Logs
 *.log
+
+# Sensitive files
+*.env
+.env.local
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
